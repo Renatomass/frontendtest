@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Hanken+Grotesk">
+  <script src="data.json"></script>
+</head>
+
+<body>
+  <main class="container">
+    <section class="container__left">
+      <div class="your-result">Your Result</div>
+      <div class="left__circle">
+        <div class="large__incircle">76</div>
+        <p>of 100</p>
+      </div>
+      <div class="great">Great</div>
+      <p>
+        <span class="pline1">You scored higher than 65% of <br> the</span>
+        <span class="pline2">people who have taken <br>these tests.</span>
+      </p>
+    </section>
+
+    <section class="container__right">
+      <div class="summary">Summary</div>
+      <div class="boxes">
+        <div class="right__reaction">
+          <div class="reaction"><img src="assets/images/icon-reaction.svg" alt="reaction icon" class="icon"> Reaction
+          </div>
+          <div class="overall-score">
+            <span class="score"><b>80</b></span>
+            <span class="score__over">/ 100</span>
+          </div>
+        </div>
+
+        <div class="right__memory">
+          <div class="memory"><img src="assets/images/icon-memory.svg" alt="memory icon" class="icon">Memory</div>
+          <div class="overall-score">
+            <span class="score"><b>92</b></span>
+            <span class="score__over">/ 100</span>
+          </div>
+        </div>
+
+        <div class="right__verbal">
+          <div class="verbal"><img src="assets/images/icon-verbal.svg" alt="verbal icon" class="icon">Verbal</div>
+          <div class="overall-score">
+            <span class="score"><b>61</b></span>
+            <span class="score__over">/ 100</span>
+          </div>
+        </div>
+
+        <div class="right__visual">
+          <div class="visual"><img src="assets/images/icon-visual.svg" alt="visual icon" class="icon">Visual</div>
+          <div class="overall-score">
+            <span class="score"><b>72</b></span>
+            <span class="score__over">/ 100</span>
+          </div>
+        </div>
+      </div>
+      <div class="btn-area">
+        <button type="button">Continue</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>
+    Frontend Mentor</a>. Coded by <a href="#">Renato Lima</a>.
+  </footer>
+</body>
+
+</html>
